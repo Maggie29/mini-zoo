@@ -1,0 +1,27 @@
+.animal{
+  width:320px;
+  height: 300px;
+  margin:0;
+}
+
+.blanco-negro{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.invertir-colores{
+  -webkit-filter: invert(1) hue-rotate(180deg);
+  filter: invert(1) hue-rotate(180deg);
+}
+.sepia{
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+}
+
+h1{
+text-align: center;
+}
+
+div{
+  text-align: center;
+}
